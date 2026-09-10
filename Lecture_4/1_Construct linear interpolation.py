@@ -30,6 +30,5 @@ for i in range(0,n_x_intp-1):
 
 y_intp = np.zeros(n_x_intp)
 
-
 # Линейная интерполяция на основе библиотеки NumPy
 y_intp = np.interp(x_intp, x, y)
